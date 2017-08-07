@@ -1,0 +1,90 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #222222;
+    color: #fff;
+}
+
+.main-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #111111;
+    height: 100%;
+    width: 80px;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #222;
+}
+
+.main-menu .fa {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.main-menu a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-size: 10px;
+}
+
+.main-menu a:hover {
+    color: #666;
+}
+
+.main-menu span {
+    display: block;
+    padding-bottom: 7px;
+}
+
+/*.details {
+    float: left;
+    display: block;
+}*/
+
+
+
+.Popular, .Watchlist, .Search {
+    margin-left: 100px;
+}
+
+.movie-block {
+    width: 300px;
+    float: left;
+    padding: 10px;
+    min-height: 530px;
+}
+
+.movie-title {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.movie-overview {
+    font-size: 12px;
+}
+
+.watchlist-it {
+    display: block;
+    float: right;
+    color: #fff;
+}
